@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "login": "joaosilva",
+    "senha": "joaosilva123",
+    "nome": "João Silva",
+    "email": "joao.silva@gmail.com",
+    "telefone": "(88) 91234-5678",
+    "data_nascimento": "1990-05-20",
+    "altura_m": 1.75,
+    "peso_kg": 78.5,
+    "plano": {
+      "tipo": "Mensal",
+      "inicio": "2025-07-01",
+      "expiracao": "2025-07-31",
+      "valor": 120.00
+    },
+    "treinos": {
+      "segunda": [
+        {
+          "nome_exercicio": "Supino reto",
+          "series": 4,
+          "repeticoes": 10,
+          "intervalo_s": 60
+        },
+        {
+          "nome_exercicio": "Crucifixo reto",
+          "series": 3,
+          "repeticoes": 12,
+          "intervalo_s": 45
+        }
+      ],
+      "terca": [
+        {
+          "nome_exercicio": "Agachamento livre",
+          "series": 4,
+          "repeticoes": 8,
+          "intervalo_s": 90
+        },
+        {
+          "nome_exercicio": "Leg press",
+          "series": 3,
+          "repeticoes": 12,
+          "intervalo_s": 60
+        }
+      ],
+      "quarta": [
+        {
+          "nome_exercicio": "Puxada frontal",
+          "series": 4,
+          "repeticoes": 10,
+          "intervalo_s": 60
+        },
+        {
+          "nome_exercicio": "Remada cavalinho",
+          "series": 3,
+          "repeticoes": 12,
+          "intervalo_s": 60
+        }
+      ],
+      "quinta": [
+        {
+          "nome_exercicio": "Rosca direta",
+          "series": 3,
+          "repeticoes": 12,
+          "intervalo_s": 45
+        },
+        {
+          "nome_exercicio": "Rosca martelo",
+          "series": 3,
+          "repeticoes": 12,
+          "intervalo_s": 45
+        }
+      ],
+      "sexta": [
+        {
+          "nome_exercicio": "Desenvolvimento com halteres",
+          "series": 4,
+          "repeticoes": 10,
+          "intervalo_s": 60
+        },
+        {
+          "nome_exercicio": "Elevação lateral",
+          "series": 3,
+          "repeticoes": 12,
+          "intervalo_s": 45
+        }
+      ]
+    },
+    "createdAt": "2025-07-01T09:00:00Z",
+    "updatedAt": "2025-07-01T09:00:00Z"
+  },
+  {
+    "id": 2,
+    "login": "mariacosta",
+    "senha": "mariacosta123",
+    "nome": "Maria Costa",
+    "email": "maria.costa@gmail.com",
+    "telefone": "(85) 98765-4321",
+    "data_nascimento": "1985-11-15",
+    "altura_m": 1.62,
+    "peso_kg": 65.2,
+    "plano": {
+      "tipo": "Anual",
+      "inicio": "2025-01-01",
+      "expiracao": "2025-12-31",
+      "valor": 1000.00
+    },
+    "treinos": {
+      "segunda": [
+        { "nome_exercicio": "Puxada alta", "series": 4, "repeticoes": 12, "intervalo_s": 60 },
+        { "nome_exercicio": "Remada baixa", "series": 3, "repeticoes": 12, "intervalo_s": 60 }
+      ],
+      "terca": [
+        { "nome_exercicio": "Leg press", "series": 4, "repeticoes": 10, "intervalo_s": 90 },
+        { "nome_exercicio": "Cadeira extensora", "series": 3, "repeticoes": 12, "intervalo_s": 60 }
+      ],
+      "quarta": [
+        { "nome_exercicio": "Supino inclinado", "series": 4, "repeticoes": 10, "intervalo_s": 60 },
+        { "nome_exercicio": "Tríceps pulley", "series": 3, "repeticoes": 12, "intervalo_s": 45 }
+      ],
+      "quinta": [
+        { "nome_exercicio": "Agachamento hack", "series": 4, "repeticoes": 10, "intervalo_s": 90 },
+        { "nome_exercicio": "Panturrilha em pé", "series": 4, "repeticoes": 15, "intervalo_s": 45 }
+      ],
+      "sexta": [
+        { "nome_exercicio": "Rosca direta barra", "series": 3, "repeticoes": 12, "intervalo_s": 45 },
+        { "nome_exercicio": "Rosca scott", "series": 3, "repeticoes": 12, "intervalo_s": 45 }
+      ]
+    },
+    "createdAt": "2025-01-01T08:30:00Z",
+    "updatedAt": "2025-01-15T10:00:00Z"
+  }
+]

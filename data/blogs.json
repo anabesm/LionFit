@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "titulo": "5 Dicas para Ganhar Massa Muscular",
+    "imagem": "/images/blog/massa-muscular.jpg",
+    "autor": "Equipe LionFit",
+    "data_publicacao": "2025-07-10",
+    "tags": ["hipertrofia", "nutrição", "treino"],
+    "conteudo": "<p>Ganhar massa muscular requer disciplina tanto na alimentação quanto no treino. A primeira dica é...</p><p>...</p>"
+  },
+  {
+    "id": 2,
+    "titulo": "Como Evitar Lesões na Academia",
+    "imagem": "/images/blog/lesoes-academia.jpg",
+    "autor": "Dr. Ana Pereira",
+    "data_publicacao": "2025-06-25",
+    "tags": ["saúde", "segurança", "alongamento"],
+    "conteudo": "<p>Lesões são comuns quando pulamos o aquecimento. Antes de qualquer treino, faça...</p><p>...</p>"
+  },
+  {
+    "id": 3,
+    "titulo": "Alimentação Pré-Treino: O Que Comer Antes de Malhar",
+    "imagem": "/images/blog/pre-treino.jpg",
+    "autor": "Nutrição LionFit",
+    "data_publicacao": "2025-07-15",
+    "tags": ["nutrição", "pré-treino", "energia"],
+    "conteudo": "<p>Escolher os alimentos certos antes do treino faz toda a diferença no seu desempenho. Prefira carboidratos de absorção lenta, como aveia e batata-doce, combinados com uma fonte de proteína magra, por exemplo, frango ou iogurte grego.</p><p>Evite gorduras em excesso e alimentos muito processados para não comprometer a digestão. Faça sua refeição cerca de 60–90 minutos antes de ir à academia para garantir energia constante durante todo o treino.</p>"
+  },
+  {
+    "id": 4,
+    "titulo": "Alongamento e Mobilidade: Prevenindo Lesões e Melhorando Desempenho",
+    "imagem": "/images/blog/alongamento-mobilidade.jpg",
+    "autor": "Equipe LionFit",
+    "data_publicacao": "2025-07-20",
+    "tags": ["alongamento", "mobilidade", "saúde"],
+    "conteudo": "<p>Incluir sessões de alongamento e exercícios de mobilidade na sua rotina ajuda a manter as articulações saudáveis e a amplitude de movimento otimizada. Comece sempre pelo aquecimento dinâmico, usando movimentos controlados que imitam os exercícios do treino.</p><p>No pós-treino, invista em alongamentos estáticos para reduzir a tensão muscular e acelerar a recuperação. Dê atenção especial a tornozelos, quadris e coluna.</p>"
+  },
+  {
+    "id": 5,
+    "titulo": "Descanso e Recuperação: A Importância do Sono para Hipertrofia",
+    "imagem": "/images/blog/recuperacao.jpg",
+    "autor": "Dr. Lucas Santos",
+    "data_publicacao": "2025-07-22",
+    "tags": ["recuperação", "sono", "descanso"],
+    "conteudo": "<p>O crescimento muscular acontece principalmente durante o sono. Por isso, dormir bem é tão importante quanto treinar e se alimentar corretamente. Procure dormir entre 7 e 9 horas por noite.</p><p>Ambientes escuros, sem eletrônicos e com temperatura amena contribuem para ciclos de sono mais profundos. Considere ainda técnicas de relaxamento, como meditação ou alongamento leve, antes de deitar.</p>"
+  }
+]
