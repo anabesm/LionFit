@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LionFit</title>
+    <link rel="icon" type="image/x-icon" href="../img/logo1.png">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="logo">
+            <img src="../img/logo2.png" alt="LionFit" width="100">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="aluno.html">Aluno</a></li>
+                <li><a href="planos.html">Planos</a></li>
+                <li><a href="nossotime.html">Nosso time</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><button onclick="window.open('localhost:3000/aluno/', '_blank')">Matricule-se</button></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="banner">
+        <div class="banner-texto">
+            <h2>Mais que uma academia</h2>
+            <p>Alcance o seu melhor com a nossa equipe de profissionais, estrutura completa e ambiente motivador. Aqui, seu foco e determinação se transformam em resultado real!</p>
+            <button onclick="window.open('localhost:3000/aluno/', '_blank')">Matricule-se</button>
+        </div>
+        <img src="../img/fachada.png" alt="LionFit" width="100%">
+    </section>
+    <section class="motivacao">
+        <div class="carrossel-imagens">
+            <img class="imagem-ativa" src="../img/teste1.jpg" alt="Primeiro andar">
+            <img class="imagem" src="../img/teste2.jpg" alt="Segundo Andar">
+            <img class="imagem" src="../img/teste3.jpg" alt="Área de descanso">
+            <img class="imagem" src="../img/teste4.jpg" alt="Armários">
+
+            <div class="botoes">
+                <button onclick="switchImg(0)" class="botao botao-ativo"></button>
+                <button onclick="switchImg(1)" class="botao"></button>
+                <button onclick="switchImg(2)" class="botao"></button>
+                <button onclick="switchImg(3)" class="botao"></button>
+            </div>
+        </div>
+        <div class="motivacao-texto">
+            <h2>Por que se matricular?</h2>
+            <p>Em nossa academia, você encontra um espaço moderno, amplo e bem equipado para todos os tipos de treino — da musculação ao funcional. Nossa equipe é formada por profissionais experientes, qualificados e sempre prontos para orientar, motivar e garantir que você alcance seus objetivos com segurança e eficiência.</p>
+        </div>
+    </section>
+    <section class="mural">
+        <h2>Venha fazer parte da nossa comunidade</h2>
+        <p>Seja aluno da LionFit e faça parte dessa família!</p>
+        <div class="carrossel-comentarios">
+            <div class="card-comentario">
+                <div class="comentario-id">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Joaquim Silva</p>
+                </div>
+                <div class="comentario-texto">
+                    <p>Excelentes profissionais, super recomendo.</p>
+                </div>
+            </div>
+            <div class="card-comentario ativo">
+                <div class="comentario-id">
+                    <i class="bi bi-person-circle"></i>
+                    <p>Ana Julia</p>
+                </div>
+                <div class="comentario-texto">
+                    <p>A melhor academia da cidade! Máquinas de alta qualidade e profissionais super atenciosos. Vale cada centavo!</p>
+                </div>
+            </div>
+            <div class="card-comentario">
+                <div class="comentario-id">
+                    <i class="bi bi-person-circle"></i>
+                    <p>André Lima</p>
+                </div>
+                <div class="comentario-texto">
+                    <p>Muito bom poder transformar minha vida junto a essa equipe de profissionais!</p>
+                </div>
+            </div>
+        </div>
+        <div class="botoes">
+            <button class="botao ativo"></button>
+            <button class="botao"></button>
+            <button class="botao"></button>
+        </div>
+    </section>
+    <section class="localizacao">
+        <h2>Nossa localização</h2>
+        <p>Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará</p>
+        <div class="mapa"></div>
+    </section>
+    <footer>
+        <div class="footer-top">
+            <div class="conteiner-esq">
+                <div class="logo">
+                    <img src="../img/logo1.png" alt="LionFit">
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li><a href="https://api.whatsapp.com/send?phone=558893644658">
+                                <i class="bi bi-whatsapp"></i>
+                            </a></li>
+                        <li><a href="https://www.instagram.com/ctlionfit/">
+                                <i class="bi bi-instagram"></i>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="conteiner-dir">
+                <div class="comunidade">
+                    <ul>
+                        <li><a href="">Eventos</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Nosso time</a></li>
+                    </ul>
+                </div>
+                <div class="contato">
+                    <ul>
+                        <li>Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará</li>
+                        <li>+55 88 9364-4658</li>
+                        <li>ctliofit@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="direitos">
+            <p>©2025 CT LionFit. Todos os direitos reservados. </p>
+        </div>
+    </footer>
+    <script src="home.js"></script>
+    
+</body>
+</html>
