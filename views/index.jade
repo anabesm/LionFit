@@ -1,5 +1,103 @@
 extends layout
 
-block content
-  h1= title
-  p Welcome to #{title}    
+block content  
+  section.navbar
+    .logo
+      img(src="/images/logo2.png", alt="LionFit", width="100")
+    nav.menu
+      ul
+        li
+          a(href="/aluno") Aluno
+        li
+          a(href="/planos") Planos
+        li
+          a(href="/nosso-time") Nosso time
+        li
+          a(href="/blog") Blog
+        li
+          button(onclick="window.location.href='/aluno'") Matricule-se
+
+  section.banner
+    .banner-texto
+      h2 Mais que uma academia
+      p Alcance o seu melhor com a nossa equipe de profissionais, estrutura completa e ambiente motivador. Aqui, seu foco e determinação se transformam em resultado real!
+      button(onclick="window.location.href='/aluno'") Matricule-se
+    img(src="/images/fachada.png", alt="LionFit", width="100%")
+
+  section.motivacao
+    .carrossel-imagens
+      img.imagem-ativa(src="/images/teste1.jpg", alt="Primeiro andar")
+      img.imagem(src="/images/teste2.jpg", alt="Segundo Andar")
+      img.imagem(src="/images/teste3.jpg", alt="Área de descanso")
+      img.imagem(src="/images/teste4.jpg", alt="Armários")
+      .botoes
+        button.botao.botao-ativo(onclick="switchImg(0)")
+        button.botao(onclick="switchImg(1)")
+        button.botao(onclick="switchImg(2)")
+        button.botao(onclick="switchImg(3)")
+    .motivacao-texto
+      h2 Por que se matricular?
+      p Em nossa academia, você encontra um espaço moderno, amplo e bem equipado para todos os tipos de treino — da musculação ao funcional. Nossa equipe é formada por profissionais experientes, qualificados e sempre prontos para orientar, motivar e garantir que você alcance seus objetivos com segurança e eficiência.
+
+  section.mural
+    h2 Venha fazer parte da nossa comunidade
+    p Seja aluno da LionFit e faça parte dessa família!
+    .carrossel-comentarios
+      .card-comentario
+        .comentario-id
+          i.bi.bi-person-circle
+          p Joaquim Silva
+        .comentario-texto
+          p Excelentes profissionais, super recomendo.
+      .card-comentario.ativo
+        .comentario-id
+          i.bi.bi-person-circle
+          p Ana Julia
+        .comentario-texto
+          p A melhor academia da cidade! Máquinas de alta qualidade e profissionais super atenciosos. Vale cada centavo!
+      .card-comentario
+        .comentario-id
+          i.bi.bi-person-circle
+          p André Lima
+        .comentario-texto
+          p Muito bom poder transformar minha vida junto a essa equipe de profissionais!
+    .botoes
+      button.botao.ativo
+      button.botao
+      button.botao
+
+  section.localizacao
+    h2 Nossa localização
+    p Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará
+    .mapa
+
+  footer
+    .footer-top
+      .conteiner-esq
+        .logo
+          img(src="/images/logo1.png", alt="LionFit")
+        .redes-sociais
+          ul
+            li
+              a(href="https://api.whatsapp.com/send?phone=558893644658")
+                i.bi.bi-whatsapp
+            li
+              a(href="https://www.instagram.com/ctlionfit/")
+                i.bi.bi-instagram
+      .conteiner-dir
+        .comunidade
+          ul
+            li
+              a(href="") Eventos
+            li
+              a(href="/blog") Blog
+            li
+              a(href="/nosso-time") Nosso time
+        .contato
+          ul
+            li Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará
+            li +55 88 9364-4658
+            li ctliofit@gmail.com
+    hr
+    .direitos
+      p ©2025 CT LionFit. Todos os direitos reservados.  
