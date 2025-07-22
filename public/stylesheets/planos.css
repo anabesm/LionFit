@@ -1,0 +1,267 @@
+
+.navbar {
+  background: var(--primary-color);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.navbar .logo img {
+  display: block;
+  width: 250px;
+}
+
+.navbar .menu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.navbar .menu ul li button {
+  background: var(--secondary-color);
+  color: var(--bg-light);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navbar .menu ul li a:hover {
+  color: var(--bg-light);
+}
+
+.navbar .menu ul li button:hover {
+  background: var(--bg-light);
+  color: var(--secondary-color);
+}
+
+.planos-page {
+  background-color: #121212; 
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.planos-page .container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.planos-page .container p {
+  color: #aaa;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.planos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card-plano {
+  background-color: #ffffff; 
+  color: #121212; 
+  border: 1px solid #333;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  min-height: 450px;
+  transition: transform 0.3s ease;
+}
+
+.card-plano:hover {
+  transform: translateY(-10px);
+}
+
+.card-plano.destaque {
+  background-color: #ffffff;
+  color: #121212;
+  transform: scale(1.05);
+  border: 2px solid var(--primary-color);
+}
+
+.card-plano.destaque:hover {
+  transform: scale(1.05) translateY(-10px);
+}
+
+.card-plano h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-plano .preco {
+  display: inline-flex;     
+  align-items: baseline;      
+  gap: 0.3em; 
+  white-space: nowrap;       
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.card-plano .preco span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #E6C500;
+  
+}
+
+.card-plano:not(.destaque) .preco {
+  color: var(--primary-color); 
+}
+
+.card-plano.destaque .preco {
+  color: var(--primary-color);
+}
+
+.card-plano.destaque .preco span {
+  color: #E6C500; 
+}
+
+.card-plano .beneficios {
+  list-style: none;
+  text-align: left;
+  margin-bottom: 2rem;
+  flex-grow: 1; 
+}
+
+.card-plano .beneficios li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-plano .beneficios i {
+  color: var(--primary-color);
+}
+
+.card-plano .btn-matricular {
+  display: block;
+  background-color: #121212;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-plano.destaque .btn-matricular {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.card-plano .btn-matricular:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.card-plano.destaque .btn-matricular:hover {
+  background-color: #333;
+}
+
+footer {
+  background: #ffffff; 
+  color: #000000;      
+  
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer .footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+footer .conteiner-esq {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 151px;
+}
+
+footer .conteiner-dir {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+  width: 80%;
+  padding-top: 2rem;
+}
+
+footer .logo img {
+  margin-bottom: 1.5rem;
+  width: 150px;
+  filter: brightness(10%);
+}
+
+footer .redes-sociais ul,
+footer .comunidade ul,
+footer .contato ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .redes-sociais ul {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .redes-sociais ul li a {
+  color: #000000;
+  font-size: 1.7rem;
+}
+
+footer .comunidade,
+footer .contato {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3rem;
+}
+
+footer .comunidade li a,
+footer .contato li {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+footer hr {
+  border: none;
+  height: 1px;
+  background: #ccc; 
+  margin: 2rem 0;
+}
+
+footer .direitos p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+

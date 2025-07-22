@@ -1,0 +1,120 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/stylesheets/planos.css')
+
+block content
+  section.navbar
+
+    .logo
+      img(src="/images/logo2.png", alt="LionFit", width="100")
+    nav.menu
+      ul
+        li
+          a(href="/aluno") Aluno
+        li
+          a(href="/planos") Planos
+        li
+          a(href="/nosso-time") Nosso time
+        li
+          a(href="/blog") Blog
+        li
+          button(onclick="window.location.href='/aluno'") Matricule-se
+
+  section.planos-page
+
+    .container
+      .planos-container
+        .card-plano
+          h3 Plano Trimestral
+          p.preco R$ 99,90 
+            span por mês
+          ul.beneficios
+            li
+              i.bi.bi-check-circle-fill
+              span Acesso a todas as áreas
+            li
+              i.bi.bi-check-circle-fill
+              span Acompanhamento básico
+            li
+              i.bi.bi-check-circle-fill
+              span Aulas em grupo
+            li
+              i.bi.bi-check-circle-fill
+              span App exclusivo
+          a.btn-matricular(href="/aluno") Matricule-se
+
+        .card-plano.destaque
+          h3 Plano Mensal
+          p.preco R$ 120,00
+            span por mês
+          ul.beneficios
+            li
+              i.bi.bi-check-circle-fill
+              span Acesso a todas as áreas
+            li
+              i.bi.bi-check-circle-fill
+              span Acompanhamento básico
+            li
+              i.bi.bi-check-circle-fill
+              span Aulas em grupo
+            li
+              i.bi.bi-check-circle-fill
+              span App exclusivo
+            li
+              i.bi.bi-check-circle-fill
+              span Sem taxa de matrícula
+          a.btn-matricular(href="/aluno") Matricule-se
+
+        .card-plano
+          h3 Plano Anual
+          p.preco R$ 85,00
+            span por mês
+          ul.beneficios
+            li
+              i.bi.bi-check-circle-fill
+              span Acesso a todas as áreas
+            li
+              i.bi.bi-check-circle-fill
+              span Acompanhamento básico
+            li
+              i.bi.bi-check-circle-fill
+              span Aulas em grupo
+            li
+              i.bi.bi-check-circle-fill
+              span App exclusivo
+          a.btn-matricular(href="/aluno") Matricule-se 
+
+  footer
+
+    .footer-top
+      .conteiner-esq
+        .logo
+          img(src="/images/logo1.png", alt="LionFit")
+        .redes-sociais
+          ul
+            li
+              a(href="https://api.whatsapp.com/send?phone=558893644658")
+                i.bi.bi-whatsapp
+            li
+              a(href="https://www.instagram.com/ctlionfit/")
+                i.bi.bi-instagram
+      .conteiner-dir
+        .comunidade
+          ul
+            li
+              a(href="") Eventos
+            li
+              a(href="/blog") Blog
+            li
+              a(href="/nosso-time") Nosso time
+        .contato
+          ul
+            li Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará
+            li +55 88 9364-4658
+            li ctliofit@gmail.com
+    hr
+    .direitos
+      p ©2025 CT LionFit. Todos os direitos reservados.  
+
+        
