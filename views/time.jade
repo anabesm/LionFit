@@ -1,0 +1,92 @@
+extends layout
+
+block content
+  head
+    link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css')
+    link(rel='stylesheet', href='/stylesheets/time.css')
+
+  section.navbar
+
+    .logo
+      img(src="/images/logo2.png", alt="LionFit", width="100")
+    nav.menu
+      ul
+        li
+          a(href="/aluno") Aluno
+        li
+          a(href="/planos") Planos
+        li
+          a(href="/nosso-time") Nosso time
+        li
+          a(href="/blog") Blog
+        li
+          button(onclick="window.location.href='/aluno'") Matricule-se
+
+  .team-container
+    h3 nosso time
+    p.subtitle CONHEÇA NOSSOS PROFISSIONAIS
+
+    .team-grid
+
+      .team-member
+        .member-image
+          img(src='/images/teste1.jpg', alt='Matheus')
+        .member-info
+          h4 Membro1
+          h5 PROFESSOR
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit facere deleniti laborum dolor saepe soluta libero debitis dolorum delectus temporibus explicabo molestias dolorem pariatur, cupiditate veniam eius! Quidem, alias.
+
+      .team-member
+        .member-image
+          img(src='/images/teste2.jpg', alt='Jéssica')
+        .member-info
+          h4 Membro2
+          h5 PROFESSORA
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quia quisquam exercitationem ea quibusdam illo, inventore praesentium eos consectetur quam sit architecto? Commodi hic modi dicta quia libero facilis quibusdam.
+
+      .team-member
+        .member-image
+          img(src='/images/teste3.jpg', alt='Carlos')
+        .member-info
+          h4 Membro3
+          h5 PROFESSOR
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, doloremque atque? Magni, nisi eveniet. Cupiditate numquam alias assumenda, minima, dolor voluptatum dignissimos aliquam sit quibusdam facilis, illo nam culpa reiciendis.
+
+      .team-member
+        .member-image
+          img(src='/images/teste4.jpg', alt='Ana')
+        .member-info
+          h4 Membro4
+          h5 PROFESSORA
+          p Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate eos rem corrupti, fugiat aliquam similique dolor distinctio consectetur cum nihil aut nostrum ullam blanditiis doloremque laborum ratione animi asperiores.
+
+  footer
+    .footer-top
+      .conteiner-esq
+        .logo
+          img(src="/images/logo1.png", alt="LionFit")
+        .redes-sociais
+          ul
+            li
+              a(href="https://api.whatsapp.com/send?phone=558893644658")
+                i.bi.bi-whatsapp
+            li
+              a(href="https://www.instagram.com/ctlionfit/")
+                i.bi.bi-instagram
+      .conteiner-dir
+        .comunidade
+          ul
+            li
+              a(href="") Eventos
+            li
+              a(href="/blog") Blog
+            li
+              a(href="/time") Nosso time
+        .contato
+          ul
+            li Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará
+            li +55 88 9364-4658
+            li ctliofit@gmail.com
+    hr
+    .direitos
+      p ©2025 CT LionFit. Todos os direitos reservados.
