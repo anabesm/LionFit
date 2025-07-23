@@ -5,17 +5,17 @@
     "imagem": "/images/blog/massa-muscular.jpg",
     "autor": "Equipe LionFit",
     "data_publicacao": "2025-07-10",
-    "tags": ["hipertrofia", "nutrição", "treino"],
-    "conteudo": "<p>Ganhar massa muscular requer disciplina tanto na alimentação quanto no treino. A primeira dica é...</p><p>...</p>"
+    "tags": ["hipertrofia", "treino", "nutrição"],
+    "conteudo": "<p>Ganhar massa muscular requer disciplina tanto na alimentação quanto no treino. A primeira dica é estruturar um plano alimentar com aporte calórico ligeiramente superior ao seu gasto energético diário, priorizando fontes de carboidratos complexos como arroz integral, batata-doce e aveia, além de proteínas magras como frango, peixe e ovos.</p><p>Outra estratégia fundamental é o princípio da sobrecarga progressiva: aumente gradativamente a carga ou o volume dos exercícios (repetições, séries ou tempo sob tensão) para forçar adaptação muscular contínua. Mantenha um registro detalhado dos seus treinos para ajustar as variáveis conforme necessário.</p><p>Além disso, é essencial variar os estímulos de treino. Alterne entre exercícios compostos (agachamento, levantamento terra, supino) e isolados (rosca bíceps, extensão de tríceps) ao longo das semanas, incorporando diferentes faixas de repetições (8–12, 12–15) e técnicas avançadas como drop sets ou superséries.</p><p>Por fim, não subestime a importância da recuperação: durma de 7 a 9 horas por noite, hidrate-se corretamente e inclua dias de descanso ativo (caminhada leve, yoga) para reduzir a fadiga crônica e otimizar o crescimento muscular.</p>"
   },
   {
     "id": 2,
     "titulo": "Como Evitar Lesões na Academia",
     "imagem": "/images/blog/lesoes-academia.jpg",
-    "autor": "Dr. Ana Pereira",
+    "autor": "Equipe LionFit",
     "data_publicacao": "2025-06-25",
-    "tags": ["saúde", "segurança", "alongamento"],
-    "conteudo": "<p>Lesões são comuns quando pulamos o aquecimento. Antes de qualquer treino, faça...</p><p>...</p>"
+    "tags": ["saúde", "treino", "alongamento"],
+    "conteudo": "<p>Lesões são comuns quando pulamos o aquecimento. Antes de qualquer treino, dedique pelo menos 10 minutos a exercícios de mobilidade articular e ativação muscular, como rotações de tornozelos, elevações de quadril e band pull-aparts, para preparar o corpo para esforço.</p><p>Durante a execução dos exercícios, mantenha sempre a postura correta: coluna neutra, ombros estabilizados e controle de movimento na fase excêntrica e concêntrica. Evite compensações, como arqueamento excessivo das costas ou balanço de peso corporal.</p><p>Outra dica essencial é respeitar a progressão de cargas: não adianta aumentar o peso sem ter técnica adequada. Se sentir dor aguda ou desconforto incomum, interrompa o exercício e avalie a forma ou procure orientação profissional.</p><p>Por último, inclua na sua rotina sessões regulares de alongamento estático e liberação miofascial com foam roller. Essas práticas ajudam a manter a flexibilidade, reduzir aderências musculares e acelerar o processo de recuperação entre os treinos.</p>"
   },
   {
     "id": 3,
@@ -23,8 +23,8 @@
     "imagem": "/images/blog/pre-treino.jpg",
     "autor": "Nutrição LionFit",
     "data_publicacao": "2025-07-15",
-    "tags": ["nutrição", "pré-treino", "energia"],
-    "conteudo": "<p>Escolher os alimentos certos antes do treino faz toda a diferença no seu desempenho. Prefira carboidratos de absorção lenta, como aveia e batata-doce, combinados com uma fonte de proteína magra, por exemplo, frango ou iogurte grego.</p><p>Evite gorduras em excesso e alimentos muito processados para não comprometer a digestão. Faça sua refeição cerca de 60–90 minutos antes de ir à academia para garantir energia constante durante todo o treino.</p>"
+    "tags": ["pré-treino", "nutrição", "treino"],
+    "conteudo": "<p>Escolher os alimentos certos antes do treino faz toda a diferença no seu desempenho. Prefira carboidratos de absorção lenta, como aveia, batata-doce e pão integral, combinados com uma fonte de proteína magra — frango, peixe ou iogurte grego são ótimas opções.</p><p>Evite gorduras em excesso e alimentos muito processados para não comprometer a digestão. Se o seu treino for de alta intensidade, considere incluir uma pequena porção de frutas frescas (banana, maçã) para um pico de energia rápida.</p><p>Faça sua refeição cerca de 60–90 minutos antes de ir à academia. Nesse intervalo, seu corpo terá tempo suficiente para iniciar a digestão, liberar glicose de forma constante e sustentar seu esforço físico sem desconfortos gastrointestinais.</p><p>Não esqueça da hidratação: beba ao menos 300–500 ml de água nos 30 minutos que antecedem o treino e mantenha pequenos goles a cada 15–20 minutos durante a atividade.</p>"
   },
   {
     "id": 4,
@@ -32,16 +32,61 @@
     "imagem": "/images/blog/alongamento-mobilidade.jpg",
     "autor": "Equipe LionFit",
     "data_publicacao": "2025-07-20",
-    "tags": ["alongamento", "mobilidade", "saúde"],
-    "conteudo": "<p>Incluir sessões de alongamento e exercícios de mobilidade na sua rotina ajuda a manter as articulações saudáveis e a amplitude de movimento otimizada. Comece sempre pelo aquecimento dinâmico, usando movimentos controlados que imitam os exercícios do treino.</p><p>No pós-treino, invista em alongamentos estáticos para reduzir a tensão muscular e acelerar a recuperação. Dê atenção especial a tornozelos, quadris e coluna.</p>"
+    "tags": ["alongamento", "mobilidade", "recuperação", "saúde"],
+    "conteudo": "<p>Incluir sessões de alongamento e exercícios de mobilidade na sua rotina ajuda a manter as articulações saudáveis e a amplitude de movimento otimizada. Comece sempre pelo aquecimento dinâmico, usando movimentos controlados que imitam os exercícios do treino — como leg swings, inchworms e rotações de tronco.</p><p>No pós-treino, invista em alongamentos estáticos para reduzir a tensão muscular e acelerar a recuperação. Mantenha cada posição por 30 a 60 segundos, sem forçar além do ponto de conforto, dando atenção especial a tornozelos, quadris e coluna.</p><p>Além dos alongamentos clássicos, experimente exercícios de mobilidade com faixa elástica ou bola suíça para melhorar déficits de movimento específicos, como abertura de ombros ou flexão de quadril.</p><p>Por fim, realize periodicamente testes de movimento (como o Functional Movement Screen) para identificar padrões de compensação e ajustar seu programa de alongamento e fortalecimento de forma personalizada.</p>"
   },
   {
     "id": 5,
     "titulo": "Descanso e Recuperação: A Importância do Sono para Hipertrofia",
     "imagem": "/images/blog/recuperacao.jpg",
-    "autor": "Dr. Lucas Santos",
+    "autor": "Equipe LionFit",
     "data_publicacao": "2025-07-22",
-    "tags": ["recuperação", "sono", "descanso"],
-    "conteudo": "<p>O crescimento muscular acontece principalmente durante o sono. Por isso, dormir bem é tão importante quanto treinar e se alimentar corretamente. Procure dormir entre 7 e 9 horas por noite.</p><p>Ambientes escuros, sem eletrônicos e com temperatura amena contribuem para ciclos de sono mais profundos. Considere ainda técnicas de relaxamento, como meditação ou alongamento leve, antes de deitar.</p>"
+    "tags": ["recuperação", "sono", "nutrição"],
+    "conteudo": "<p>O crescimento muscular acontece principalmente durante o sono. Por isso, dormir bem é tão importante quanto treinar e se alimentar corretamente. Procure dormir entre 7 e 9 horas por noite, respeitando seus ciclos de sono leve e profundo.</p><p>Ambientes escuros, sem eletrônicos e com temperatura amena contribuem para ciclos de sono mais profundos. Considere ainda técnicas de relaxamento, como meditação guiada ou alongamento leve antes de deitar, para reduzir o nível de cortisol e facilitar o adormecimento.</p><p>Evite refeições pesadas, cafeína e estímulos luminosos (celular/tablet) pelo menos 1–2 horas antes de dormir. Se tiver dificuldade para dormir, experimente journaling (anotar pensamentos) ou técnicos de respiração 4-7-8.</p><p>Para complementar, inclua na sua rotina dias de descanso ativo, com atividades de baixo impacto como caminhada, natação leve ou yoga restaurativa, ajudando a manter o corpo em movimento sem comprometer a recuperação muscular.</p>"
+  },
+  {
+    "id": 6,
+    "titulo": "Treino Full Body: Benefícios e Montagem de Rotina",
+    "imagem": "/images/blog/treino-fullbody.jpg",
+    "autor": "Equipe LionFit",
+    "data_publicacao": "2025-07-05",
+    "tags": ["treino", "fullbody", "recuperação"],
+    "conteudo": "<p>O treino full body trabalha todos os grupos musculares em uma única sessão, sendo ideal para quem tem agenda corrida ou busca manutenção geral da condição física. Ele permite frequência de estímulo elevada e otimização do tempo de treino.</p><p>Para montar uma rotina equilibrada, selecione 5 a 7 exercícios que cubram membros superiores, inferiores e core. Exemplos: agachamento, supino reto, remada curvada, desenvolvimento de ombros, elevação de quadril e prancha.</p><p>Execute 3 a 4 séries de cada exercício, com 8–12 repetições, ajustando a carga conforme seu nível. No início, 2 treinos por semana já podem trazer ganhos consistentes; avançados podem chegar a 3 vezes semanais.</p><p>Intercale os dias de full body com sessões leves de mobilidade ou cardio moderado. Assim, você mantém recuperação adequada e evita sobrecarga excessiva.</p>"
+  },
+  {
+    "id": 7,
+    "titulo": "Suplementação: Quando e Como Usar",
+    "imagem": "/images/blog/suplementacao.jpg",
+    "autor": "Nutrição LionFit",
+    "data_publicacao": "2025-06-30",
+    "tags": ["suplementação", "nutrição", "recuperação"],
+    "conteudo": "<p>Os suplementos podem ajudar a preencher lacunas nutricionais e otimizar resultados, mas não substituem uma dieta equilibrada. Os mais indicados para hipertrofia são whey protein, creatina monohidratada e BCAAs.</p><p>Whey protein deve ser consumido logo após o treino (até 30 minutos) para fornecer aminoácidos de rápida absorção. A dose média é de 20–30 g, dependendo do seu aporte proteico total diário.</p><p>Creatina monohidratada, com 3–5 g por dia, melhora desempenho em exercícios de alta intensidade e volumiza as células musculares. Tome com água ou suco em qualquer momento do dia.</p><p>Evite exageros e procure marcas com certificação Informed-Sport ou similares. Consulte sempre um profissional de nutrição antes de iniciar qualquer protocolo de suplementação.</p>"
+  },
+  {
+    "id": 8,
+    "titulo": "Treino de Alta Intensidade: HIIT para Iniciantes",
+    "imagem": "/images/blog/hiit-iniciantes.jpg",
+    "autor": "Equipe LionFit",
+    "data_publicacao": "2025-06-20",
+    "tags": ["hiit", "cardio", "treino"],
+    "conteudo": "<p>O HIIT (High-Intensity Interval Training) combina curtos períodos de esforço máximo com intervalos de recuperação ativa ou descanso. É eficiente para queima de gordura e melhora do condicionamento cardiovascular.</p><p>Para iniciantes, comece com 20 segundos de esforço (corrida estacionária, polichinelos ou burpees leves) seguidos de 40 segundos de caminhada ou movimentos de baixa intensidade. Repita por 10 a 15 minutos.</p><p>À medida que seu condicionamento melhora, aumente gradualmente o tempo de esforço e diminua o de descanso, sempre respeitando os sinais do corpo para evitar overtraining.</p><p>Finalize com alongamentos dinâmicos e hidratação abundante para reduzir acúmulo de ácido lático e prevenir dores musculares tardias.</p>"
+  },
+  {
+    "id": 9,
+    "titulo": "Alimentação Pós-Treino: Potencialize sua Recuperação",
+    "imagem": "/images/blog/pos-treino.jpg",
+    "autor": "Nutrição LionFit",
+    "data_publicacao": "2025-06-15",
+    "tags": ["pós-treino", "nutrição", "recuperação"],
+    "conteudo": "<p>Após o treino, o foco é repor glicogênio e fornecer aminoácidos para a síntese proteica. Combine carboidratos de alto índice glicêmico (banana, batata-doce assada) com proteína de absorção rápida (whey protein, ovo cozido).</p><p>Uma refeição pós-treino típica pode ser um shake de whey com frutas ou um sanduíche de frango desfiado no pão integral com geleia sem açúcar.</p><p>Inclua também vegetais para aporte de vitaminas, minerais e fibras, ajudando no equilíbrio osmótico e na função imunológica.</p><p>Se o próximo treino estiver a mais de 6 horas, acrescente uma refeição sólida completa em até 2 horas após o exercício para maximizar a recuperação.</p>"
+  },
+  {
+    "id": 10,
+    "titulo": "Exercícios de Core: Fortalecendo o Abdômen",
+    "imagem": "/images/blog/exercicios-core.jpg",
+    "autor": "Equipe LionFit",
+    "data_publicacao": "2025-06-10",
+    "tags": ["core", "treino", "saúde"],
+    "conteudo": "<p>O core vai muito além do abdômen: envolve toda a região lombar, oblíquos e músculos profundos que estabilizam a coluna. Um core forte melhora a postura, performance e previne dores nas costas.</p><p>Inclua pranchas frontais e laterais, bird-dogs e hollow holds na sua rotina. Mantenha o corpo alinhado, quadris estáveis e contraia o abdômen durante toda a execução.</p><p>Realize 3 séries de 30–60 segundos em cada variação, descansando 30 segundos entre elas. À medida que ganhar força, adicione instabilidade com bola suíça ou pranchas com apoio de mãos alternadas.</p><p>Para desafiar ainda mais, experimente movimentos dinâmicos como rollout com roda de abdômen ou mountain climbers, sempre priorizando a técnica correta.</p>"
   }
 ]
