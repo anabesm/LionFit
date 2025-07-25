@@ -5,7 +5,7 @@ const AlunoService  = require('../services/aluno.service');
 // lista todos
 router.get("/", (req,res) => {
   const alunos = AlunoService.listar();
-  res.render("aluno/index", {title: "Alunos", alunos});
+  res.render("aluno", {title: "Alunos", alunos});
 });
 
 module.exports = router;
