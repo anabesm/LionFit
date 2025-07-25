@@ -4,8 +4,11 @@ const BlogService = require('../services/blog.service');
 
 // lista todos
 router.get('/', (req,res) => {
-  const blogs = BlogService.listar();
-  res.render('blogs', {title: 'Blog', blogs});
+  res.render('blogs', {title: 'Blog'});
 });
 
+router.get('/api', (req,res) => {
+  const blogs = BlogService.listar();
+  res.json(blogs);
+});
 module.exports = router;
