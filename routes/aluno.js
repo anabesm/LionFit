@@ -7,36 +7,13 @@ router.get("/", (req, res) => {
   res.render('aluno', { title: 'Dashboard do Aluno' });
 });
 
-// lista todos
-router.get("/listagem", (req,res) => {
+router.get("/listagem", (req, res) => {
   res.json(AlunoService.listar());
 });
 
-// busca um
-router.get("/:id", (req,res) => {
-  const a = AlunoService.recuperar(req.params.id);
-  if (!a) return res.status(404).send("Aluno não encontrado");
-  res.json(a);
-});
-
-// cria
-router.post("/", (req,res) => {
-  const novo = AlunoService.criar(req.body);
-  res.status(201).json(novo);
-});
-
-// atualiza
-router.put("/:id", (req,res) => {
-  const atualizado = AlunoService.atualizar(req.params.id, req.body);
-  if (!atualizado) return res.status(404).send("Aluno não encontrado");
-  res.json(atualizado);
-});
-
-// exclui
-router.post("/:id/apagar", (req,res) => {
-  if (!AlunoService.apagar(req.params.id)) 
-    return res.status(404).send("Aluno não encontrado");
-  res.status(204).end();
+router.get("/api", (req,res) => {
+  const alunos = AlunoService.listar();
+  res.json(alunos);
 });
 
 module.exports = router;
