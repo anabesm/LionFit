@@ -62,5 +62,5 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  carregarDadosAluno(2); 
+  carregarDadosAluno(1); 
 });
