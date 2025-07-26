@@ -1,0 +1,108 @@
+extends layout
+
+block styles
+  link(rel='stylesheet', href='/stylesheets/aluno.css')
+  link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css")
+
+block content
+  .dashboard-container
+    aside.sidebar
+      .sidebar-header
+        h2
+          i.bi.bi-person-circle 
+          | Minha conta
+      nav.sidebar-nav
+        ul
+          li
+            a(href="#")
+              i.bi.bi-heart-pulse-fill
+              span Meus treinos
+          li
+            a(href="#")
+              i.bi.bi-credit-card
+              span Pagamentos
+          li
+            a(href="#")
+              i.bi.bi-calendar-event
+              span Eventos
+          li
+            a(href="#")
+              i.bi.bi-graph-up
+              span Avaliações Físicas
+          li
+            a(href="#")
+              i.bi.bi-check-square
+              span Minha frequência
+          li
+            a(href="#")
+              i.bi.bi-gear
+              span Configurações
+      .sidebar-footer
+        a(href="/")
+          i.bi.bi-box-arrow-left
+          span Sair
+
+    main.main-content
+      header.top-nav
+        .logo
+          img(src="/images/logo2.png", alt="LionFit", width="100")
+        nav.menu
+          ul
+            li: a(href="/aluno") Aluno
+            li: a(href="/planos") Planos
+            li: a(href="/nosso-time") Nosso time
+            li: a(href="/blog") Blog
+            li: button(onclick="window.location.href='/aluno'") Matricule-se
+
+      section.treino-section
+        .treino-header
+          .day-selector
+            button(data-dia="segunda") S
+            button(data-dia="terca") T
+            button(data-dia="quarta") Q
+            button(data-dia="quinta") Q
+            button(data-dia="sexta") S
+        
+        .treino-body
+          h1#exercicio-titulo Costas e biceps
+          table.exercicio-table
+            thead
+              tr
+                th Exercicio
+                th Repetições
+                th Séries
+            tbody#tabela-exercicios
+
+  footer.dashboard-footer
+    .footer-top
+      .conteiner-esq
+        .logo
+          img(src="/images/logo1.png", alt="LionFit")
+        .redes-sociais
+          ul
+            li
+              a(href="https://api.whatsapp.com/send?phone=558893644658")
+                i.bi.bi-whatsapp
+            li
+              a(href="https://www.instagram.com/ctlionfit/")
+                i.bi.bi-instagram
+      .conteiner-dir
+        .comunidade
+          ul
+            li
+              a(href="") Eventos
+            li
+              a(href="/blog") Blog
+            li
+              a(href="/nosso-time") Nosso time
+        .contato
+          ul
+            li Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará
+            li +55 88 9364-4658
+            li ctliofit@gmail.com
+    hr
+    .direitos
+      p ©2025 CT LionFit. Todos os direitos reservados.  
+
+block scripts
+  script(src="/javascripts/dashboard-aluno.js")

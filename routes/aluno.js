@@ -2,8 +2,13 @@ const express = require('express');
 const router  = express.Router();
 const AlunoService  = require('../services/aluno.service');
 
+
+router.get("/", (req, res) => {
+  res.render('aluno', { title: 'Dashboard do Aluno' });
+});
+
 // lista todos
-router.get("/", (req,res) => {
+router.get("/listagem", (req,res) => {
   res.json(AlunoService.listar());
 });
 
