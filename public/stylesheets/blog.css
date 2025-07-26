@@ -78,6 +78,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  padding: 0 3rem;
 }
 
 .blog-page .search {
@@ -89,6 +91,7 @@ body {
   margin-top: 2rem;
 }
 
+/*--- BARRA DE PESQUISA ---*/
 .search input {
     width: 100%;
     padding: 10px;
@@ -113,7 +116,6 @@ body {
 }
 
 .blog-page #articles {
-  padding: 4rem 3rem;
   background: var(--bg-light);
 }
 
