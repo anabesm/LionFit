@@ -57,6 +57,10 @@ class AlunoService {
     alunos.splice(idx, 1);
     return true;
   }
+
+  static login(email, senha) {
+    return alunos.find(a => a.email == email && a.senha == senha) || null;
+  }
 }
 
 module.exports = AlunoService;

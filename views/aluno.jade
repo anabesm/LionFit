@@ -8,7 +8,7 @@ block content
   .dashboard-container
     aside.sidebar
       .sidebar-header
-        h2
+        h2.nome-aluno
           i.bi.bi-person-circle 
           | Minha conta
       nav.sidebar-nav
@@ -103,6 +103,7 @@ block content
     hr
     .direitos
       p ©2025 CT LionFit. Todos os direitos reservados.  
-
 block scripts
+  script.
+    const aluno = !{JSON.stringify(aluno)};
   script(src="/javascripts/dashboard-aluno.js")

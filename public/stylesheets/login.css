@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+  --primary-color: #E6C500;
+  --secondary-color: #000000;
+  --terciary-color: #ffffff;
+  --bg-light: #FFF;
+  --bg-mid: #EEE;
+  --bg-dark: #CCC;
+  --text-main: #333;
+  --text-muted: #666;
+  --border-radius: 8px;
+  --font-base: 'DM Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-base);
+  color: var(--text-main);
+  background: var(--bg-light);
+}
+
+.navbar {
+  background: var(--primary-color);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+
+.navbar .logo img {
+  display: block;
+  width: 250px;
+}
+
+.navbar .menu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar .menu ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: 500;
+}
+
+.navbar .menu ul li button {
+  background: var(--secondary-color);
+  color: var(--bg-light);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.navbar .menu ul li a:hover {
+  color: var(--bg-light);
+}
+
+.navbar .menu ul li button:hover {
+  background: var(--bg-light);
+  color: var(--secondary-color);
+}
+
+.login {
+  background-color: var(--bg-light);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  padding: 2rem;
+}
+
+.login .login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  justify-content: center;
+  padding: 2rem;
+  background-color: var(--bg-light);
+  height: 80vh;
+}
+
+.login .login-form h2 {
+  margin-bottom: 2rem;
+}
+
+.login .login-form input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--bg-mid);
+  color: var(--text-main);
+  font-size: 1rem;
+}
+
+.login .login-form button {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: var(--border-radius);
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--bg-light);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login .login-form button:hover {
+  background-color: var(--bg-light);
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}   
+
+.login .login-form p {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.login .login-form p a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.login .login-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.login .login-image img {
+  width: 100%;
+  border-radius: var(--border-radius);
+}
+
+footer {
+  background: var(--secondary-color);
+  color: var(--bg-light);
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+footer .footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+footer .conteiner-esq {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 151px;
+}
+
+footer .conteiner-dir {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4rem;
+  width: 80%;
+  padding-top: 2rem;
+}
+
+footer .logo img {
+  margin-bottom: 1.5rem;
+  width: 150px;
+}
+
+footer .redes-sociais ul,
+footer .comunidade ul,
+footer .contato ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer .redes-sociais ul {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .redes-sociais ul li a {
+  color: var(--bg-light);
+  font-size: 1.7rem;
+}
+
+footer .comunidade,
+footer .contato {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3rem;
+}
+
+footer .comunidade li a,
+footer .contato li{
+  color: var(--bg-light);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+footer hr {
+  border: none;
+  height: 1px;
+  background: #444;
+  margin: 2rem 0;
+}
+
+footer .direitos p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+

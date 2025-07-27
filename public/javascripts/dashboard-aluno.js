@@ -12,8 +12,11 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!response.ok) {
         throw new Error('Não foi possível carregar os dados do aluno.');
       }
-      dadosAlunoCompleto = await response.json(); 
-      
+      dadosAlunoCompleto = await response.json();
+
+      let nomeAluno = document.querySelector('.nome-aluno');
+      nomeAluno.innerHTML = `<i class="bi bi-person-circle"></i> ${dadosAlunoCompleto.nome}`;
+
       renderizarTreino('segunda'); 
       ativarBotaoDia('segunda');
 
@@ -62,5 +65,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  carregarDadosAluno(1); 
+  console.log(aluno);
+  carregarDadosAluno(aluno.id); 
 });
