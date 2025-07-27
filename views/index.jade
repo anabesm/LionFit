@@ -2,8 +2,12 @@ extends layout
 
 block content  
   section.navbar
-    .logo
+    .menu-toggle 
+      i.bi.bi-list
       img(src="/images/logo2.png", alt="LionFit")
+    .logo
+      a(href='/')
+        img(src='/images/logo2.png' alt='LionFit')
     nav.menu
       ul
         li
@@ -86,6 +90,7 @@ block content
                 i.bi.bi-instagram
       .conteiner-dir
         .comunidade
+          h3 Comunidade
           ul
             li
               a(href="") Eventos
@@ -94,6 +99,7 @@ block content
             li
               a(href="/nosso-time") Nosso time
         .contato
+          h3 Contato
           ul
             li Rua Jacinto Cruz, 555. 02 de Agosto. Morada Nova - Ceará
             li +55 88 9364-4658

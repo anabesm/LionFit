@@ -79,7 +79,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 3rem;
+  padding: 2rem 3rem;
 }
 
 .blog-page .search {
@@ -87,13 +87,13 @@ body {
   justify-content: center;
   align-items: center;
   padding: 2rem 3rem;
-  width: 600px;
+  width: 100%;
   margin-top: 2rem;
 }
 
 /*--- BARRA DE PESQUISA ---*/
 .search input {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     font-size: 16px;
     border-radius: 100px;
@@ -115,16 +115,12 @@ body {
     color: var(--bg-light);
 }
 
-.blog-page #articles {
-  background: var(--bg-light);
-}
-
 .blog-page #articles .article {
   display: none;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2rem 3rem;
 }
   
 .blog-page #articles .article.ativo {
@@ -135,7 +131,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 800px;
+    width: 50%;
 }
 
 .blog-page #articles h2 {
@@ -161,14 +157,9 @@ body {
 }
 
 .blog-page #articles img {
-  width: 400px;
+  width: 35%;
   border-radius: var(--border-radius);
   margin-left: 1rem;
-}
-
-.blog-page #articles hr {
-  border: 1px solid var(--bg-mid);
-  margin: 2rem 0;
 }
 
 .blog-page #articles .tags li {
@@ -190,7 +181,7 @@ body {
   border-radius: 100px;
   cursor: pointer;
   font-weight: 600;
-  width: 130px;
+  width: 25%;
 }
 
 .blog-page #articles button:hover {
@@ -307,4 +298,110 @@ footer hr {
 footer .direitos p {
   text-align: center;
   font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .navbar .menu-toggle {
+    display: flex;
+  }   
+
+  .navbar .menu {
+    display: none;
+  }
+
+  .navbar .logo {
+    display: none;
+  }
+  
+  .navbar .menu ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .navbar .menu.ativo {
+    display: flex;
+  }
+
+  .blog-page .search{
+    padding: 0;
+  }
+
+  .blog-page .search input{
+    width: 100%;
+  }
+
+  .blog-page #articles .article.ativo{
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .blog-page #articles .article .content{
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .blog-page #articles h2, 
+  .blog-page #articles p{
+    font-size: 1rem;
+  }
+
+  .blog-page #articles button{
+    width: 100%;
+  }
+
+  .blog-page #articles .article img{
+    width: 100%;
+    margin-left: 0;
+  }
+  
+  footer .footer-top {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer .conteiner-dir {
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  footer .conteiner-esq {
+    order: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  footer .conteiner-esq .redes-sociais ul{
+    margin-bottom: 0;
+  }
+
+  footer .conteiner-esq .logo img{
+    margin-bottom: 0;
+  }
+
+  footer .conteiner-esq img {
+    width: 100px;
+  }
+
+  footer p, footer a , footer li{
+    font-size: 0.8rem;
+  }
+
+  footer h3 {
+    font-size: 1rem;
+  }
 }

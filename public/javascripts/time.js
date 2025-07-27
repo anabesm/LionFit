@@ -1,5 +1,12 @@
 // Espera o documento HTML estar completamente carregado
 document.addEventListener('DOMContentLoaded', function() {
+  const toggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
+  
+  toggle.addEventListener('click', () => {
+    console.log('entrou');
+    menu.classList.toggle('ativo');
+  });
   const container = document.getElementById('team-grid-container');
 
   // 1. FAZ A REQUISIÇÃO FETCH para a nossa nova API
@@ -41,4 +48,5 @@ document.addEventListener('DOMContentLoaded', function() {
       console.error('Falha ao buscar os membros da equipe:', error);
       container.innerHTML = '<p>Não foi possível carregar os membros da equipe. Tente novamente mais tarde.</p>';
     });
+
 });
