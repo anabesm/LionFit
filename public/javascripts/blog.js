@@ -11,45 +11,55 @@ async function totalArticles () {
 totalArticles();
 
 async function listArticles () {
-    const response = await fetch('http://localhost:3000/blog/api');
-    const data = await response.json();
+    try {
+        const response = await fetch('http://localhost:3000/blog/api');
 
-    let blogDiv = document.getElementById('articles');
-    blogDiv.innerHTML = '';
+        if (!response.ok) {
+            throw new Error('Erro ao buscar os artigos.');
+        }
 
-    for (let i = 0; i < data.length; i++) {
-        let article = data[i];
-        let articleDiv = document.createElement('div');
-        articleDiv.classList.add('article');
-        
-        const content = document.createElement('div');
-        content.classList.add('content');
-        
-        const dataPublicacao = new Date(article.data_publicacao);
-        const descricao = article.conteudo.slice(0, 200) + '...';
-        const tags = article.tags.map(tag => `<li>${tag}</li>`).join('');
-        
-        content.innerHTML = `
-            <h2>${article.titulo}</h2>
-            <p class="author">${article.autor}</p>
-            <time datetime="${dataPublicacao}">${dataPublicacao.toLocaleDateString('pt-BR')}</time>
-            <p>${descricao}</p>
-            <ul class="tags">${tags}</ul>
-            <button>Leia Mais</button>
-        `;
+        const data = await response.json();
 
-        const img = document.createElement('img');
-        img.src = `${article.imagem}`;
-        img.alt = article.titulo;
+        let blogDiv = document.getElementById('articles');
+        blogDiv.innerHTML = '';
 
-        articleDiv.appendChild(content);
-        articleDiv.appendChild(img);
+        for (let i = 0; i < data.length; i++) {
+            let article = data[i];
+            let articleDiv = document.createElement('div');
+            articleDiv.classList.add('article');
+            
+            const content = document.createElement('div');
+            content.classList.add('content');
+            
+            const dataPublicacao = new Date(article.data_publicacao);
+            const descricao = article.conteudo.slice(0, 200) + '...';
+            const tags = article.tags.map(tag => `<li>${tag}</li>`).join('');
+            
+            content.innerHTML = `
+                <h2>${article.titulo}</h2>
+                <p class="author">${article.autor}</p>
+                <time datetime="${dataPublicacao}">${dataPublicacao.toLocaleDateString('pt-BR')}</time>
+                <p>${descricao}</p>
+                <ul class="tags">${tags}</ul>
+                <button>Leia Mais</button>
+            `;
 
-        blogDiv.appendChild(articleDiv);
+            const img = document.createElement('img');
+            img.src = `${article.imagem}`;
+            img.alt = article.titulo;
 
+            articleDiv.appendChild(content);
+            articleDiv.appendChild(img);
+
+            blogDiv.appendChild(articleDiv);
+
+        }
+        updatePage();
+    } catch (error) {
+        console.error('Erro ao buscar os artigos:', error);
+        const blogDiv = document.getElementById('articles');
+        blogDiv.innerHTML = '<p>Erro ao carregar os artigos. Tente novamente mais tarde.</p>';
     }
-    updatePage();
-
 }
 
 listArticles();
