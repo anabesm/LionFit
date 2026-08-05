@@ -46,7 +46,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 1. **Clone o repositório**  
    ```bash
-   git clone https://github.com/SEU_USUARIO/lionfit.git
+   git clone https://github.com/anabesm/LionFit.git
    cd lionfit
 
 2. **Instale as dependências**
